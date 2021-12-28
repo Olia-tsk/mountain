@@ -1,157 +1,157 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #061B28;
-    background: url("img/mountain-main.jpg") top center no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #061b28;
+  background: url("img/mountain-main.jpg") top center no-repeat;
 }
 
 header {
-    min-height: 650px;
-    position: relative;
+  min-height: 650px;
+  position: relative;
 }
 
 .header-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 89px;
-    margin-right: 235px;
-    margin-top: 35px;
-    margin-bottom: 165px;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 89px;
+  margin-right: 235px;
+  margin-top: 35px;
+  margin-bottom: 165px;
+  padding: 0;
 }
 
 .header-nav-left-clmn {
-    display: flex;
+  display: flex;
 }
 
 .logo {
-    margin: 0;
-    margin-right: 99px;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    text-transform: uppercase;
-    color: #FCFCFC;
+  margin: 0;
+  margin-right: 99px;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #fcfcfc;
 }
 
 .header-menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 8px;
 }
 
 .header-menu li {
-    display: inline-block;
-    margin-right: -4px;
+  display: inline-block;
+  margin-right: -4px;
 }
 
 .header-menu a {
-    position: relative;
-    padding-right: 30px;
-    font-size: 16px;
-    line-height: 19px;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding-right: 30px;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.2);
 }
 
 .header-menu a::before {
-    position: absolute;
-    color: #FCFCFC;
-    transition: transform 0.3s, opacity 0.3s;
-    content: attr(data-hover);
+  position: absolute;
+  color: #fcfcfc;
+  transition: transform 0.3s, opacity 0.3s;
+  content: attr(data-hover);
 }
 
 .header-menu a:hover::before {
-    opacity: 0;
-    transform: scale(0.9);
+  opacity: 0;
+  transform: scale(0.9);
 }
 
 .header-nav-right-clmn {
-    color: #FCFCFC;
-    padding-top: 8px;
+  color: #fcfcfc;
+  padding-top: 8px;
 }
 
 .profile-icon {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    top: 1px;
-    right: 92px;
-    background-color: rgba(252, 252, 252, 0.4);
-    background-image: url("icon/profile-icon.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 50%;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 1px;
+  right: 92px;
+  background-color: rgba(252, 252, 252, 0.4);
+  background-image: url("icon/profile-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
 }
 
 .search-icon {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    top: 1px;
-    right: 157px;
-    background-color: rgba(252, 252, 252, 0.4);
-    background-image: url("icon/search-icon.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 50%;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 1px;
+  right: 157px;
+  background-color: rgba(252, 252, 252, 0.4);
+  background-image: url("icon/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
 }
 
 .icon {
-    transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
 .icon:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-    transform: scale(0.9);
-    transition: transform 0.3s;
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+  transition: transform 0.3s;
 }
 
 .header-main h1 {
-    margin: 0;
-    margin-bottom: 21px;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: calc(25px + (98 - 25) * ((100vw - 300px) / (1366 - 300)));
-    line-height: 145px;
-    color: #FCFCFC;
-    text-align: center;
+  margin: 0;
+  margin-bottom: 21px;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: calc(25px + (98 - 25) * ((100vw - 300px) / (1366 - 300)));
+  line-height: 145px;
+  color: #fcfcfc;
+  text-align: center;
 }
 
 .btn {
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 12px;
-    width: 168px;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    background-color: transparent;
-    color: #FCFCFC;
-    border: 2px solid #FCFCFC;
-    transition: transform 0.3s;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  width: 168px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fcfcfc;
+  border: 2px solid #fcfcfc;
+  transition: transform 0.3s;
 }
 
 .header-btn {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn:hover {
-    color: rgba(0, 0, 0, 0.2);
-    border-color: rgba(0, 0, 0, 0.2);
-    transform: scale(0.9);
-    transition: transform 0.3s;
+  color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
+  transform: scale(0.9);
+  transition: transform 0.3s;
 }

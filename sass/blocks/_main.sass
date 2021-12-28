@@ -1,0 +1,61 @@
+.main
+  height: 100vh
+  background-color: #7e7e7e
+  background-image: url('../img/mountain-main.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  &-header
+    padding-top: 35px
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-logo
+    font-family: 'Oswald', sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 24px
+    line-height: 36px
+    text-transform: uppercase
+    color: #FCFCFC
+  &-menu
+    display: flex
+    &_item
+      margin-right: 30px
+      transition: all 0.3s
+      &:last-child
+        margin-right: 0
+    &_link
+      color: #ffffff
+      transition: all 0.3s
+
+  &-contacts
+    display: flex
+    align-items: center
+    &_phone
+      color: #FCFCFC
+      transition: all 0.3s
+    &_item
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 35px
+      height: 35px
+      margin-left: 30px
+      background-color: rgba(252, 252, 252, 0.4)
+      border-radius: 50%
+    &_icon
+      width: 20px
+      height: 20px
+  &-title
+    margin-bottom: 21px
+    font-family: 'Oswald', sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: calc(25px + (98 - 25) * ((100vw - 300px) / (1366 - 300)))
+    line-height: 145px
+    color: #FCFCFC
+    text-align: center
+  &-button
+    margin-right: auto
+    margin-left: auto
