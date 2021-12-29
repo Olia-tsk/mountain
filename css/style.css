@@ -343,11 +343,21 @@ template {
 
 * {
   font-family: 'Roboto', sans-serif;
+  color: #061B28;
 }
 
-h1 {
+h1, h2 {
   margin: 0;
   padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 52px;
+  line-height: 115%;
+  color: #061B28;
 }
 
 a {
@@ -486,9 +496,6 @@ ul {
 .main-title {
   margin-top: 155px;
   margin-bottom: 25px;
-  font-family: 'Oswald', sans-serif;
-  font-style: normal;
-  font-weight: 600;
   font-size: 98px;
   line-height: 145px;
   color: #FCFCFC;
@@ -498,6 +505,97 @@ ul {
 .main-button {
   margin-right: auto;
   margin-left: auto;
+}
+
+.tops {
+  position: relative;
+  margin-top: 133px;
+}
+
+.tops-title {
+  width: 472px;
+  margin-bottom: 38px;
+}
+
+.tops-text {
+  width: 350px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.tops-map {
+  position: absolute;
+  top: 89px;
+  right: 0;
+}
+
+.tops-map_pin {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tops-map_pin--denali {
+  left: 30px;
+  top: 18px;
+}
+
+.tops-map_pin--orisaba {
+  left: 80px;
+  top: 136px;
+}
+
+.tops-map_pin--kotopahi {
+  left: 138px;
+  top: 203px;
+}
+
+.tops-map_pin--akonkagua {
+  left: 170px;
+  bottom: 55px;
+}
+
+.tops-map_pin--matterhorn {
+  right: 358px;
+  top: 60px;
+}
+
+.tops-map_pin--elbrus {
+  right: 280px;
+  top: 73px;
+}
+
+.tops-map_pin--everest {
+  right: 156px;
+  top: 128px;
+}
+
+.tops-map_pin--kilimanjaro {
+  right: 239px;
+  bottom: 153px;
+}
+
+.tops-map_img {
+  position: relative;
+}
+
+.tops-map_icon {
+  margin-right: 5px;
+  fill: #EC5118;
+  width: 13px;
+  height: 16px;
+}
+
+.tops-map_text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 .button:hover {
