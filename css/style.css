@@ -360,6 +360,10 @@ h2 {
   color: #061B28;
 }
 
+p {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -596,6 +600,226 @@ ul {
   margin: 0;
   font-size: 14px;
   line-height: 150%;
+}
+
+.popular {
+  margin-top: 126px;
+}
+
+.popular-title {
+  margin-bottom: 73px;
+  text-align: center;
+}
+
+.popular-slider_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px;
+  padding-bottom: 35px;
+  width: 291px;
+  height: 250px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 249, 250, 0)), to(rgba(249, 249, 250, 0.9))), url(../img/popular-beluha.jpg);
+  background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-beluha.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+}
+
+.popular-slider_item--elbrus {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 249, 250, 0)), to(rgba(249, 249, 250, 0.9))), url(../img/popular-elbrus.jpg);
+  background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-elbrus.jpg);
+}
+
+.popular-slider_item--kilimanjaro {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 249, 250, 0)), to(rgba(249, 249, 250, 0.9))), url(../img/popular-kilimanjaro.jpg);
+  background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-kilimanjaro.jpg);
+}
+
+.popular-slider_item--akonkagua {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 249, 250, 0)), to(rgba(249, 249, 250, 0.9))), url(../img/popular-akonkagua.jpg);
+  background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-akonkagua.jpg);
+}
+
+.popular-slider_item--matterhorn {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(249, 249, 250, 0)), to(rgba(249, 249, 250, 0.9))), url(../img/popular-matterhorn.jpg);
+  background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-matterhorn.jpg);
+}
+
+.popular-slider_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.popular-slider_location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.popular-slider_pin {
+  margin-right: 7px;
+  width: 13px;
+  height: 16px;
+  fill: #EC5118;
+}
+
+.popular-slider_countryname {
+  font-size: 16px;
+  line-height: 115%;
+}
+
+.popular-slider_bookmark {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(252, 252, 252, 0.4);
+}
+
+.popular-slider_bookmarkicon {
+  width: 10px;
+  height: 13px;
+}
+
+.popular-slider_title {
+  margin-bottom: 18px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  line-height: 115%;
+  font-weight: 500;
+}
+
+.popular-slider_data {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 115%;
+  font-weight: normal;
+}
+
+.popular-slider_distance {
+  position: relative;
+  margin-right: 17px;
+}
+
+.popular-slider_distance::after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 13px;
+  left: 70px;
+  top: 5px;
+  background-color: #000;
+}
+
+.popular-slider_days {
+  display: inline-block;
+  position: relative;
+  margin-right: 15px;
+  width: 66px;
+}
+
+.popular-slider_days::before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 13px;
+  left: 76px;
+  top: 5px;
+  background-color: #000;
+}
+
+.popular-slider_level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.popular-slider_icon {
+  margin-right: 6px;
+  width: 12px;
+  height: 12px;
+}
+
+.popular-slider_text {
+  font-size: 18px;
+  line-height: 115%;
+  font-weight: normal;
+}
+
+.popular-slider_button {
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(0, 60, 255, 0.4);
+}
+
+.popular-slider_button--next {
+  right: 0;
+  left: auto;
+}
+
+.popular-slider_button--prev {
+  right: 50px;
+  left: auto;
+}
+
+.popular-slider_toleft {
+  width: 11px;
+  height: 7px;
+}
+
+.popular-slider_toright {
+  width: 11px;
+  height: 7px;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  margin-bottom: 75px;
+  -webkit-transform: translate3d(-1440px, 0, 0);
+          transform: translate3d(-1440px, 0, 0);
 }
 
 .button:hover {

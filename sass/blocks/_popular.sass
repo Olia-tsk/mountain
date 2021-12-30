@@ -1,0 +1,128 @@
+.popular
+  margin-top: 126px
+  &-title
+    margin-bottom: 73px
+    text-align: center
+  &-slider
+    &_item
+      // margin-right: 30px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      padding: 40px
+      padding-bottom: 35px
+      width: 291px
+      height: 250px
+      background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-beluha.jpg)
+      background-repeat: no-repeat, no-repeat
+      background-size: cover, cover
+      &--elbrus
+        background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-elbrus.jpg)
+      &--kilimanjaro
+        background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-kilimanjaro.jpg)
+      &--akonkagua
+        background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-akonkagua.jpg)
+      &--matterhorn
+        background-image: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%), url(../img/popular-matterhorn.jpg)
+    &_header
+      display: flex
+      align-items: flex-start
+      justify-content: space-between
+    &_location
+      display: flex
+    &_pin
+      margin-right: 7px
+      width: 13px
+      height: 16px
+      fill: #EC5118
+    &_countryname
+      font-size: 16px
+      line-height: 115%
+    &_bookmark
+      cursor: pointer
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 35px
+      height: 35px
+      border-radius: 50%
+      background-color: rgba(252, 252, 252, 0.4)
+    &_bookmarkicon
+      width: 10px
+      height: 13px
+    &_title
+      margin-bottom: 18px
+      font-family: 'Oswald', sans-serif
+      font-size: 26px
+      line-height: 115%
+      font-weight: 500
+    &_data
+      margin-bottom: 15px
+      font-size: 18px
+      line-height: 115%
+      font-weight: normal
+    &_distance
+      position: relative
+      margin-right: 17px
+      &::after
+        position: absolute
+        content: ''
+        width: 1px
+        height: 13px
+        left: 70px
+        top: 5px
+        background-color: #000
+    &_days
+      display: inline-block
+      position: relative
+      margin-right: 15px
+      width: 66px
+      &::before
+        position: absolute
+        content: ''
+        width: 1px
+        height: 13px
+        left: 76px
+        top: 5px
+        background-color: #000
+    &_level
+      display: flex
+      align-items: center
+    &_icon
+      margin-right: 6px
+      width: 12px
+      height: 12px
+    &_text
+      font-size: 18px
+      line-height: 115%
+      font-weight: normal
+    &_button
+      position: absolute
+      bottom: 0
+      z-index: 100
+      cursor: pointer
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 35px
+      height: 35px
+      border-radius: 50%
+      background-color: rgba(0, 60, 255, 0.4)
+      &--next
+        right: 0
+        left: auto
+      &--prev
+        right: 50px
+        left: auto
+    &_toleft
+      width: 11px
+      height: 7px
+    &_toright
+      width: 11px
+      height: 7px
+
+.swiper
+  width: 100%
+  &-wrapper
+    margin-bottom: 75px
+    transform: translate3d(-1440px, 0, 0)
