@@ -1,17 +1,17 @@
 $(document).ready(function () {
-  const swiper = new Swiper(".swiper", {
-    // Optional parameters
+  const swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 30,
-    slidesPerGroup: 1,
+    slidesPerGroup: 3,
     loop: true,
     loopFillGroupWithBlank: true,
-    autoHeight: true,
-
-    // Navigation arrows
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
     navigation: {
-      nextEl: ".popular-slider_button--next",
-      prevEl: ".popular-slider_button--prev",
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
 
     keyboard: {

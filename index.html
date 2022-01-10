@@ -165,11 +165,10 @@
       <div class="container">
         <h2 class="popular-title">Популярные туры</h2>
         <!-- slider main container -->
-        <div class="swiper">
-          <!-- Additional required wrapper -->
+        <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide popular-slider_item">
+            <!-- слайды -->
+            <div class="swiper-slide swiper-slide--beluha">
               <div class="popular-slider_header">
                 <div class="popular-slider_location">
                   <svg class="popular-slider_pin">
@@ -183,16 +182,13 @@
                   </svg>
                 </div>
               </div>
-
               <div class="popular-slider_content">
                 <p class="popular-slider_title">Белуха</p>
-
                 <div class="popular-slider_data">
                   <span class="popular-slider_distance">4506 м</span>
                   <span class="popular-slider_days">12 дней</span>
                   <span class="popular-slider_price">от 45000 ₽</span>
                 </div>
-
                 <div class="popular-slider_level">
                   <svg class="popular-slider_icon">
                     <use href="img/icon/sprite.svg#level-mid"></use>
@@ -202,12 +198,7 @@
               </div>
             </div>
 
-            <div
-              class="
-                swiper-slide
-                popular-slider_item popular-slider_item--elbrus
-              "
-            >
+            <div class="swiper-slide swiper-slide--elbrus">
               <div class="popular-slider_header">
                 <div class="popular-slider_location">
                   <svg class="popular-slider_pin">
@@ -240,12 +231,7 @@
               </div>
             </div>
 
-            <div
-              class="
-                swiper-slide
-                popular-slider_item popular-slider_item--kilimanjaro
-              "
-            >
+            <div class="swiper-slide swiper-slide--kilimanjaro">
               <div class="popular-slider_header">
                 <div class="popular-slider_location">
                   <svg class="popular-slider_pin">
@@ -278,12 +264,7 @@
               </div>
             </div>
 
-            <div
-              class="
-                swiper-slide
-                popular-slider_item popular-slider_item--akonkagua
-              "
-            >
+            <div class="swiper-slide swiper-slide--akonkagua">
               <div class="popular-slider_header">
                 <div class="popular-slider_location">
                   <svg class="popular-slider_pin">
@@ -316,12 +297,7 @@
               </div>
             </div>
 
-            <div
-              class="
-                swiper-slide
-                popular-slider_item popular-slider_item--matterhorn
-              "
-            >
+            <div class="swiper-slide swiper-slide--matterhorn">
               <div class="popular-slider_header">
                 <div class="popular-slider_location">
                   <svg class="popular-slider_pin">
@@ -354,17 +330,8 @@
               </div>
             </div>
           </div>
-          <!-- Navigation buttons -->
-          <div class="popular-slider_button popular-slider_button--prev">
-            <svg class="popular-slider_toleft">
-              <use href="img/icon/sprite.svg#to-left"></use>
-            </svg>
-          </div>
-          <div class="popular-slider_button popular-slider_button--next">
-            <svg class="popular-slider_toright">
-              <use href="img/icon/sprite.svg#to-right"></use>
-            </svg>
-          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
       </div>
     </section>

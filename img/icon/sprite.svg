@@ -25,14 +25,6 @@
     <path d="M7 13C10.3137 13 13 10.3137 13 7C13 3.68629 10.3137 1 7 1" stroke="#061B28" stroke-width="2"></path>
   </symbol>
 
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" id="to-left">
-    <path d="M13 4.5L2 4.5M2 4.5L5.66667 8M2 4.5L5.66667 1" stroke="#061B28" stroke-width="2"></path>
-  </symbol>
-
-  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 9" id="to-right">
-    <path d="M0 4.5H11M11 4.5L7.33333 1M11 4.5L7.33333 8" stroke="#061B28" stroke-width="2"></path>
-  </symbol>
-
  <!-- > social icons < -->
 
   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 20" id="facebook">
