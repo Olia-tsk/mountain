@@ -1042,6 +1042,87 @@ button {
   color: #FCFCFC;
 }
 
+.contacts {
+  margin-top: 135px;
+}
+
+.contacts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contacts-map {
+  margin-top: 6px;
+  margin-right: 70px;
+  position: relative;
+}
+
+.contacts-map_pin {
+  position: absolute;
+  left: 173px;
+  top: 201px;
+  width: 33px;
+  height: 40px;
+  fill: #EC5118;
+}
+
+.contacts-title {
+  margin-bottom: 47px;
+}
+
+.contacts-list_item {
+  margin-bottom: 26px;
+}
+
+.contacts-list_title {
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #061B28;
+}
+
+.contacts-list_text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  color: #061B28;
+}
+
+.contacts-list_social {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-list_social-icon {
+  fill: #061B28;
+  margin-right: 33px;
+}
+
+.contacts-list_social-icon--fb {
+  width: 11px;
+  height: 20px;
+}
+
+.contacts-list_social-icon--inst {
+  width: 20px;
+  height: 20px;
+}
+
+.contacts-list_social-icon--tw {
+  width: 20px;
+  height: 16px;
+}
+
 .button:hover {
   color: rgba(18, 26, 29, 0.8);
   border-color: rgba(18, 26, 29, 0.8);
@@ -1090,5 +1171,14 @@ button {
 
 .blog-list_item:hover {
   background-color: rgba(6, 27, 40, 0.123);
+}
+
+.contacts-list_text--hover:hover {
+  color: #EC5118;
+}
+
+.contacts-list_social-link:hover .contacts-list_social-icon {
+  fill: #EC5118;
+  background: rgba(255, 255, 255, 0);
 }
 /*# sourceMappingURL=style.css.map */
