@@ -1123,6 +1123,61 @@ button {
   height: 16px;
 }
 
+.footer {
+  background-color: #061B28;
+  margin-top: 109px;
+  padding-top: 43px;
+  padding-bottom: 43px;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FCFCFC;
+}
+
+.footer-copyright_icon {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 9px;
+  height: 9px;
+}
+
+.footer-logo {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FCFCFC;
+}
+
+.footer-confidence {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FCFCFC;
+}
+
 .button:hover {
   color: rgba(18, 26, 29, 0.8);
   border-color: rgba(18, 26, 29, 0.8);
@@ -1180,5 +1235,9 @@ button {
 .contacts-list_social-link:hover .contacts-list_social-icon {
   fill: #EC5118;
   background: rgba(255, 255, 255, 0);
+}
+
+.footer-confidence:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
