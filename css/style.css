@@ -371,6 +371,7 @@ a {
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -397,6 +398,25 @@ ul {
   line-height: 19px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.button-orange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45px;
+  border: 3px solid #EC5118;
+  background-color: #EC5118;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
 }
 
 .main {
@@ -842,6 +862,92 @@ ul {
   height: 35px;
 }
 
+.blog {
+  margin-top: 140px;
+}
+
+.blog-title {
+  text-align: center;
+  margin-bottom: 73px;
+}
+
+.blog-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-list {
+  min-width: 400px;
+  margin-right: 70px;
+}
+
+.blog-list_item {
+  padding: 30px;
+  padding-top: 26px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #061B28;
+}
+
+.blog-list_item:first-child {
+  background-color: #061B28;
+}
+
+.blog-list_item:last-of-type {
+  margin-bottom: 30px;
+}
+
+.blog-list_date {
+  margin-bottom: 9px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #626F77;
+}
+
+.blog-list_date--light {
+  color: #7E8386;
+}
+
+.blog-list_title {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #061B28;
+}
+
+.blog-list_title--light {
+  color: #FCFCFC;
+}
+
+.blog-article_img {
+  margin-bottom: 33px;
+}
+
+.blog-article_date {
+  margin-bottom: 7px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #626F77;
+}
+
+.blog-article_title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  color: #061B28;
+}
+
+.blog-article_text {
+  margin-bottom: 13px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #061B28;
+}
+
 .button:hover {
   color: rgba(18, 26, 29, 0.8);
   border-color: rgba(18, 26, 29, 0.8);
@@ -849,6 +955,14 @@ ul {
           transform: scale(0.9);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.button-orange:hover {
+  background-color: #ffffff;
+  border: 3px solid #EC5118;
+  color: #EC5118;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
 .main-menu_item:hover {
@@ -878,5 +992,9 @@ ul {
   background-color: rgba(18, 26, 29, 0.8);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.blog-list_item:hover {
+  background-color: rgba(6, 27, 40, 0.123);
 }
 /*# sourceMappingURL=style.css.map */
