@@ -374,6 +374,10 @@ ul {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1170px;
   margin-left: auto;
@@ -410,7 +414,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 45px;
+  height: 44px;
   border: 3px solid #EC5118;
   background-color: #EC5118;
   color: #ffffff;
@@ -948,6 +952,96 @@ ul {
   color: #061B28;
 }
 
+.help {
+  margin-top: 121px;
+  padding-top: 74px;
+  padding-bottom: 76px;
+  background-color: #061B28;
+  background-image: url("../img/help-img.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+
+.help-title {
+  margin-bottom: 28px;
+  width: 525px;
+  color: #FCFCFC;
+}
+
+.help-text {
+  margin-bottom: 25px;
+  width: 525px;
+  color: #FCFCFC;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.help-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 525px;
+}
+
+.help-form_input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #45545E;
+  margin-bottom: 24px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #061B28;
+  color: #FCFCFC;
+}
+
+.help-form_input::-webkit-input-placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7E8386;
+}
+
+.help-form_input:-ms-input-placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7E8386;
+}
+
+.help-form_input::-ms-input-placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7E8386;
+}
+
+.help-form_input::placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7E8386;
+}
+
+.help-form_button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.help-rules {
+  width: 525px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FCFCFC;
+}
+
 .button:hover {
   color: rgba(18, 26, 29, 0.8);
   border-color: rgba(18, 26, 29, 0.8);
@@ -958,7 +1052,7 @@ ul {
 }
 
 .button-orange:hover {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
   border: 3px solid #EC5118;
   color: #EC5118;
   -webkit-transition: background-color 0.5s;
