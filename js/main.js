@@ -19,4 +19,21 @@ $(document).ready(function () {
       onlyInViewport: true,
     },
   });
+
+  const slider = new Swiper(".tours-slider", {
+    direction: "horizontal",
+    loop: true,
+
+    effect: "fade",
+
+    navigation: {
+      nextEl: ".tours-slide-next",
+      prevEl: ".tours-slide-prev",
+    },
+
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+    },
+  });
 });

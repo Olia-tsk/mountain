@@ -1,0 +1,119 @@
+.tours
+  margin-top: 130px
+  &-slider
+    width: 100%
+    height: 757px
+  &-slide
+    position: relative
+    height: inherit
+    padding-top: 0
+    background-color: #ffffff
+    &_bg
+      width: 100%
+      height: 757px
+      object-fit: cover
+    &_content
+      position: absolute
+      left: 50%
+      transform: translateX(-50%)
+      top: 0
+      z-index: 100
+      margin-right: auto
+      margin-left: auto
+      padding-top: 94px
+      width: 830px
+      display: flex
+      flex-direction: column
+      align-items: center
+    &_title
+      margin-bottom: 13px
+      &--light
+        color: #FCFCFC
+    &_desc
+      width: 243px
+      margin-bottom: 48px
+      text-align: center
+      font-weight: normal
+      font-size: 18px
+      line-height: 140%
+      color: #061B28
+      &--light
+        color: #FCFCFC
+    &_button
+      &--dark
+        border: 2px solid #061B28
+        color: #061B28
+    &-next
+      cursor: pointer
+      position: absolute
+      z-index: 100
+      top: 105px
+      right: 20%
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 35px
+      height: 35px
+      border-radius: 50%
+      background-color: #ffffff
+      &_icon
+        width: 11px
+        height: 7px
+    &-prev
+      cursor: pointer
+      position: absolute
+      z-index: 100
+      top: 105px
+      left: 20%
+      display: flex
+      align-items: center
+      justify-content: center
+      width: 35px
+      height: 35px
+      border-radius: 50%
+      background-color: #ffffff
+      &_icon
+        width: 11px
+        height: 7px
+
+  &-table
+    width: 830px
+    border-collapse: collapse
+    margin-bottom: 50px
+    text-align: center
+    table-layout: fixed
+    & tr
+      border-bottom: 1px solid #A3ABB0
+    &--light tr
+      border-bottom-color: #45545E
+    &_header th
+      padding-bottom: 6px
+      font-weight: normal
+      font-size: 18px
+      line-height: 140%
+      color: #52616A
+      &:first-child
+        text-align: left
+        padding-left: 99px
+      &:last-child
+        text-align: left
+        padding-left: 15px
+    &_header--light th
+      color: #A7AEB4
+    &_data
+      padding-top: 20px
+      padding-bottom: 15px
+      font-weight: 500
+      font-size: 22px
+      line-height: 140%
+      color: #061B28
+      &--light
+        color: #FCFCFC
+      &:first-child
+        text-align: left
+        padding-left: 99px
+      // &:nth-child(2)
+      //   padding-right: 80px
+      &:last-child
+        text-align: left
+        padding-left: 15px
